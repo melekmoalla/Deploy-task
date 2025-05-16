@@ -37,7 +37,7 @@ function App() {
       <Route path="/board/:boardId" element={<ProtectedRoute><DashboardLayout><BoardIdLayout><BoardIdPage /></BoardIdLayout></DashboardLayout></ProtectedRoute>} />
 
       {/* <Route path="*" element={<Navigate to="/" replace />} /> */}
-      <Route path="*" element={<ErrorPage />} />
+
     </Routes>
   );
 }
