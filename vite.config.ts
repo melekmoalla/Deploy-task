@@ -7,7 +7,7 @@ import { defineConfig } from "vite"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/Deploy',
+  base: '/deploy-task/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
