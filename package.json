@@ -1,5 +1,5 @@
 {
-   "homepage": "https://melekmoalla.github.io/deploy-task", 
+   "homepage": "https://melekmoalla.github.io/Deploy-task", 
    "name": "taskflow",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+     "deploy": "gh-pages -d dist "
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.25.6",
