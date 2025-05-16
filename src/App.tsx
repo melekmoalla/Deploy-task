@@ -25,7 +25,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="https://melekmoalla.github.io/Deploy//" element={<PublicRoute><MarketingLayout><MarketingPage /></MarketingLayout></PublicRoute>} />
+      <Route path="/" element={<PublicRoute><MarketingLayout><MarketingPage /></MarketingLayout></PublicRoute>} />
       <Route path="/sign-in" element={<ClerkLayout> <SignIpPage /> </ClerkLayout>} />
       <Route path="/sign-up" element={<ClerkLayout> <SignUpPage /> </ClerkLayout>} />
       <Route path="/select-org" element={<ProtectedRoute><ClerkLayout><CreateOrganizationPage /></ClerkLayout></ProtectedRoute>} />
